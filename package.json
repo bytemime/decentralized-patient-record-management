@@ -1,0 +1,16 @@
+{
+  "name": "decentralized-patient-record-management",
+  "version": "0.0.1",
+  "description": "Decentralized patient record management",
+  "main": "index.js",
+  "repository": "https://github.com/bytemime/decentralized-patient-record-management.git",
+  "author": "Sachin Saini <iamsainisachin@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "ganache-cli": "^6.3.0",
+    "mocha": "^5.2.0",
+    "solc": "^0.5.3",
+    "truffle-hdwallet-provider": "^1.0.3",
+    "web3": "1.0.0-beta.26"
+  }
+}
