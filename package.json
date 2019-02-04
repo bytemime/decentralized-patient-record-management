@@ -5,12 +5,15 @@
   "main": "index.js",
   "repository": "https://github.com/bytemime/decentralized-patient-record-management.git",
   "author": "Sachin Saini <iamsainisachin@gmail.com>",
+  "scripts": {
+    "test": "mocha"
+  },
   "license": "MIT",
   "dependencies": {
     "ganache-cli": "^6.3.0",
     "mocha": "^5.2.0",
     "solc": "0.4.25",
     "truffle-hdwallet-provider": "^1.0.3",
-    "web3": "1.0.0-beta.26"
+    "web3": "1.0.0-beta.37"
   }
 }
