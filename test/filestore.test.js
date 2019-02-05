@@ -16,4 +16,9 @@ describe('filestore', () => {
 	it('should test deployment on local network', () => {
 		assert.ok(filestore.options.address);
 	});
+	it('should send a transaction to the set hash method', async () => {
+		await filestore.methods.setHash('sachin123').send({ from: accounts[0] });
+		const hash = await filestore.methods.getHash().call();
+		assert.equal(hash, 'sachin123');
+	});
 });
