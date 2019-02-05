@@ -1,5 +1,7 @@
 # Decentralized patient record management
 
+[![Build Status](https://travis-ci.org/bytemime/decentralized-patient-record-management.svg?branch=master)](https://travis-ci.org/bytemime/decentralized-patient-record-management)
+
 ## ABI
 
 ```
