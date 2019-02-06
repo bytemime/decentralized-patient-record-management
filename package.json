@@ -6,14 +6,19 @@
   "repository": "https://github.com/bytemime/decentralized-patient-record-management.git",
   "author": "Sachin Saini <iamsainisachin@gmail.com>",
   "scripts": {
-    "test": "mocha"
+    "test": "nyc --reporter=html --reporter=text ./node_modules/.bin/mocha",
+    "coverage": "nyc report --reporter=text-lcov | coveralls"
   },
   "license": "MIT",
   "dependencies": {
     "ganache-cli": "^6.3.0",
     "mocha": "^5.2.0",
+    "nyc": "^13.2.0",
     "solc": "0.4.25",
     "truffle-hdwallet-provider": "^1.0.3",
     "web3": "1.0.0-beta.37"
+  },
+  "devDependencies": {
+    "coveralls": "^3.0.0"
   }
 }

@@ -1,2 +1,4 @@
 node_modules/
 infura.js
+coverage/
+.nyc_output/
