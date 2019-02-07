@@ -4,3 +4,10 @@ node_js:
 
 after_success:
   - "npm run coverall"
+
+notifications: 
+  email:
+    recipients:
+      - bytemime@gmail.com
+    on_success: change
+    on_failure: always
